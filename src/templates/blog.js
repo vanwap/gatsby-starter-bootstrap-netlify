@@ -33,6 +33,7 @@ export default function Template ({ data }) {
         </Helmet>
         <Container>
           <h1 className='display-3'>{post.frontmatter.title}</h1>
+          <div className='test'>test123</div>
         </Container>
 
         <Container dangerouslySetInnerHTML={{ __html: post.html }} />
